@@ -11,7 +11,7 @@ This project applies PCA to yield curve data to identify the three main modes of
 
 These three components typically explain over 95% of the variation in yield curve movements.
 
-![Principal Components](images/pc1.png)
+![Principal Components](example-images/pc1.png)
 
 ## Features
 
@@ -38,16 +38,16 @@ run yield_curve_pca.m
 ## Sample Visualizations
 
 ### Principal Components (Level, Slope, Curvature)
-![Principal Components](images/pc1.png)
+![Principal Components](example-images/pc1.png)
 
 ### Reconstructed Yield Curves
-![Reconstructed Yield Curves](images/pc2.png)
+![Reconstructed Yield Curves](example-images/pc2.png)
 
 ### Original Yield Curves
-![Original Yield Curves](images/pc3.png)
+![Original Yield Curves](example-images/pc3.png)
 
 ### Incremental Reconstruction
-![Incremental Reconstruction](images/pc4.png)
+![Incremental Reconstruction](example-images/pc4.png)
 
 ## Requirements
 
