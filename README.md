@@ -66,10 +66,10 @@ run yield_curve_stress_testing.m
 
 The PCA methodology for yield curves follows these steps:
 
-1. **Normalization**: Center the yield curve data by subtracting the mean curve
-2. **Covariance Matrix**: Calculate the variance-covariance matrix
+1. **Normalisation**: Center the yield curve data by subtracting the mean curve
+2. **Variance-Covariance Matrix**: Calculate the variance-covariance matrix
 3. **Eigendecomposition**: Decompose the covariance matrix to get eigenvectors (principal components) and eigenvalues
-4. **PC Scores**: Project the normalized data onto the principal components
+4. **PC Scores**: Project the normalised data onto the principal components
 5. **Reconstruction**: Reconstruct yield curves using principal components
 
 For yield curves, the interpretation of the first three PCs is typically:
