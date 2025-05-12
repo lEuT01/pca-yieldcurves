@@ -88,7 +88,7 @@ If you use this code in your research, please cite:
 
 ```
 @misc{yield-curve-pca,
-  author = {Your Name},
+  author = {Elliot Martindale},
   title = {Yield Curve Principal Component Analysis},
   year = {2025},
   publisher = {GitHub},
