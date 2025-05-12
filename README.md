@@ -25,7 +25,7 @@ These three components typically explain over 95% of the variation in yield curv
 ## Files
 
 - **yield_curve_pca.m** - Main script for PCA analysis
-- **glc-yield-curve-data.xlsx** - Sample yield curve data
+- **glc-yield-curve-data.xlsx** - Sample yield curve data taken from the [Bank of England](https://www.bankofengland.co.uk/statistics/yield-curves) and show nominal yield curve data for month end from 2016 - present (2024).
 
 ## Usage
 
