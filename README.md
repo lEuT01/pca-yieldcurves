@@ -10,9 +10,21 @@ This project applies PCA to yield curve data to identify the three main modes of
 - **Slope**: The steepness of the yield curve (PC2)
 - **Curvature**: The curvature or "humped-ness" of the yield curve (PC3)
 
-These three components typically explain over 95% of the variation in yield curve movements.
+### What is PCA?
+PCA (Principal Component Analysis) is a technique to simplify high-dimensional datasets by transforming them into a new coordinate system where the axes (called *principal components*) capture the directions of maximum variance. 
 
-![Principal Components](https://github.com/user-attachments/assets/becd1ef0-a5f5-4c27-8cad-fddaf705529b)
+### PCA METHOD
+1. **Normalise the data** by subtracting the mean of each column to center it around zero s.t. variance-covariance matrix `\propto X^T X` aka "sum-of-squares" matrix.
+3. **Compute the variance-covariance matrix** to measure linear dependencies between features.
+   Diagonal entries `\propto` variance of each spot rate
+   Off-diagonal entries `\propto` covariances between the spot rates of different terms.
+5. **Perform eigendecomposition** of the covariance matrix. This transforms our basis to a new coordinate system.
+   - **Eigenvectors**: the principal components (directions of variance)
+   - **Eigenvalues**: the variance explained by each component
+6. **Projects the data** onto the principal components to obtain *scores* that describe each observation in the new, uncorrelated basis; this is done via a matrix of eigenvectors `P` s.t. new data points are denoted by `XP`; scores are the *new* data points.
+
+
+These steps reduce the dimensionality while retaining the most important patterns in the data.
 
 ## Features
 
@@ -25,7 +37,7 @@ These three components typically explain over 95% of the variation in yield curv
 ## Files
 
 - **yield_curve_pca.m** - Main script for PCA analysis
-- **glc-yield-curve-data.xlsx** - Sample yield curve data taken from the [Bank of England](https://www.bankofengland.co.uk/statistics/yield-curves) and show nominal yield curve data for month end from 2016 - present (2024).
+- **glc-yield-curve-data.xlsx** - Sample gilt curves taken from the [Bank of England](https://www.bankofengland.co.uk/statistics/yield-curves) - shows nominal gilt curves for month end from 2016 - present (2024).
 
 ## Usage
 
