@@ -73,3 +73,7 @@ For yield curves, the interpretation of the first three PCs is typically:
 
 - MATLAB (tested on R2020b and later)
 - Statistics and Machine Learning Toolbox (recommended)
+
+## References and Acknowledgements
+
+- This method of Principal Component Analysis was taught to me by Paul Teggin upon placement at 'Pension Insurance Corporation' (PIC) in 2024.
