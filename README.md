@@ -1,4 +1,5 @@
 # Yield Curve Principal Component Analysis
+[![Made with MATLAB](https://img.shields.io/badge/Made%20with-MATLAB-orange.svg)](https://www.mathworks.com/products/matlab.html)
 
 This repository contains a MATLAB implementation of Principal Component Analysis (PCA) for yield curve modelling and visualisation.
 
