@@ -53,7 +53,7 @@ run yield_curve_pca.m
 ```
 
 ## Sample Visualisations
-
+Below are outputs generated via use of the algorithm and the attached .xls file.
 ### Principal Components (Level, Slope, Curvature)
 ![Principal Components (PC1)](https://github.com/user-attachments/assets/becd1ef0-a5f5-4c27-8cad-fddaf705529b)
 
